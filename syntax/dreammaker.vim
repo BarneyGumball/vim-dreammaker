@@ -55,7 +55,7 @@ syntax sync fromstart
 syn cluster dmStringGroup   contains=dmStringInterp,dmStringEscape,dmStringMacro,dmStringEntity,@HTML
 syn region  dmString        start=/"/ skip=/\\"/ end=/"/ contains=@dmStringGroup keepend
 syn region  dmString        start=/'/ skip=/\\'/ end=/'/ contains=@dmStringGroup keepend
-syn region  dmString        start=/{"/ skip=/\\"/ end=/"}/ contains=@dmStringGroup keepend
+syn region  dmString        start=/{"/ skip=/\\"/ end=/"}/ contains=@dmStringGroup keepend extend
 
 """ Comments
 
