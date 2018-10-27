@@ -4,15 +4,16 @@ Vim syntax plugin for dream maker.
 
 ![vim-dreammaker](http://i.imgur.com/zixac2M.png?1)
 
-## Alternatives
-
-##### Original creator
-
-* [wlue/vim-dm-syntax](https://github.com/wlue/vim-dm-syntax)
+## Related repositories
 
 ##### Source of this fork
 
 * [ccraciun/vim-dm-syntax](https://github.com/ccraciun/vim-dreammaker)
+
+##### Alternative highlighter (somewhat outdated)
+
+* [wlue/vim-dm-syntax](https://github.com/wlue/vim-dm-syntax)
+
 
 ## Installation
 
