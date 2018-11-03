@@ -8,7 +8,7 @@ Vim syntax plugin for dream maker.
 
 ##### Source of this fork
 
-* [ccraciun/vim-dm-syntax](https://github.com/ccraciun/vim-dreammaker)
+* [ccraciun/vim-dreammaker](https://github.com/ccraciun/vim-dreammaker)
 
 ##### Alternative highlighter (somewhat outdated)
 

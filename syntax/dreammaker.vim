@@ -136,7 +136,7 @@ syn match   dmOperatorAssignBit     /^=/
 syn match   dmOperatorConditional   contained /?/
 syn match   dmOperatorConditional   contained /:/
 
-syn match   dmOperatorConditionalRegion +\s?\s.*\s:\s+ extend contains=ALLBUT,@dmPreprocGroup
+syn match   dmOperatorConditionalRegion +\s?\s.\{-}\s:\s+ extend contains=ALLBUT,@dmPreprocGroup
 
 syn match   dmOperatorDereference   /\w\.\w/ms=s+1,me=e-1
 syn match   dmOperatorDereference   /\w:\w/ms=s+1,me=e-1
